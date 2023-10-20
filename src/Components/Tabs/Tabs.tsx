@@ -1,10 +1,9 @@
-import React, { FC, Fragment, useState } from "react";
-import { TabsType } from "./Tabs.type";
+import React, { Fragment, useState } from "react";
 import { tabs } from "./util";
-import { Tab } from "../Tab/Tab";
 import "./Tabs.css";
 import { ContentSection } from "../ContentSection";
-export const Tabs: FC<TabsType> = ({}) => {
+import { Tab } from "../Tab/Tab";
+export const Tabs = () => {
   const [currentTab, setCurrentTab] = useState("1");
   const handleTabClick = (e: any) => {
     setCurrentTab(e.target.id);
