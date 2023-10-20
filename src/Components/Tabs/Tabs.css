@@ -1,0 +1,7 @@
+.tabs-menu{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,24 @@
+.tab-item {
+  height: 80px;
+  background-color: #e0e0e0;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.selected-tab {
+  background: #007acc;
+  color: white;
+}
+.tab-item:hover {
+  background-color: #cccccc;
+  cursor: pointer;
+}
+.selected-tab:hover {
+  background: #0063a5;
+}
