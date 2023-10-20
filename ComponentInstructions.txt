@@ -1,0 +1,27 @@
+# React Tabs Component
+
+This is a simple React Tabs component that allows you to display multiple tabs with associated content. It consists of three components: `Tabs`, `Tab`, and `ContentSection`. This README provides instructions on how to set up and use these components in this project.
+
+
+##Component Details
+
+Tabs Component:
+The Tabs component is the main component that manages the tabs and content sections. It handles state and switching between tabs.
+
+Purpose: Manages a tabbed interface for switching between content sections.
+Props: None.
+User Interaction: Clicking on a tab updates the active tab and content.
+
+Tab Component:
+The Tab component represents an individual tab. It can be customized with different props for tab title and appearance.
+
+Purpose: Represents an individual tab with a title.
+Props: id, isSelected, tabTitle, and onClick.
+User Interaction: Clicking a tab triggers an onClick function.
+
+ContentSection Component:
+The ContentSection component displays the content associated with the selected tab. It is shown when a tab is selected.
+
+Purpose: Displays content associated with a selected tab.
+Props: id, content, title, and isSelected.
+Visibility: Content is shown when isSelected is true.
